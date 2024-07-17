@@ -3,12 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome
+		cadeia nome // Declarando variável
 		
-		escreva("Olá, Qual é o seu nome? ")
-		leia(nome)
+		escreva("Olá, Qual é o seu nome? ") // Mensagem pro usuário
+		leia(nome) // Lê e guarda na variável nome
 		
-		escreva("Tudo bem, "+ nome+"? É um grande prazer te conhecer!!\n\n")
+		escreva("Tudo bem, "+ nome+"? É um grande prazer te conhecer!!\n\n") // Escreve uma mensagem com o nome do usuário
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 179; 
+ * @POSICAO-CURSOR = 299; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
