@@ -21,13 +21,13 @@ programa
 			
 		}
 		
-		escreva("\n\nO número ", n, " foi divisivel por ", divisivel)
+		escreva("\n\nO número ", n, " foi divisivel por ", divisivel, "Números.")
 
 		se (divisivel > 2){
-			escreva("\nO numero ", n, " não é um número primo.\n\n")
+			escreva("\nLogo", n, " não é um número primo.\n\n")
 		}
 		senao {
-			escreva( n, " é um número primo.\n\n")
+			escreva("\nLogo, ", n, " é um número primo.\n\n")
 		}
 	}
 }
@@ -36,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 537; 
+ * @POSICAO-CURSOR = 488; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
