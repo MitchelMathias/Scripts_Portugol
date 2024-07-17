@@ -20,10 +20,10 @@ programa
 		// sendo ela (estrelas = (andares - cand + 1) * 2 )
 		
 		para(linha = 1; linha <= totlinha; linha++){ // Para cada linha faça os outros 2 laços aninhados 
-			para(espacos = 0; espacos <= linha; espacos++){ // Conforme a linha diminui aumenta o espaço
+			para(espacos = 1; espacos <= linha; espacos++){ // Conforme a linha diminui aumenta o espaço
 				escreva(" ")// Escreve um espaço
 			}
-			para(estrelas = 2; estrelas<= (totlinha - linha + 1) * 2 ;estrelas++){ // conforme cada espaço que aumenta a linha diminui o espaço
+			para(estrelas=2; estrelas<= (totlinha - linha + 1) * 2 ;estrelas++){ // conforme cada espaço que aumenta a linha diminui o espaço
 				escreva("*") // Escreve um asterisco
 			}
 			tot += -1 // Tot recebe ele mesmo - 1 pra proxima linha do laço
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1113; 
+ * @POSICAO-CURSOR = 1392; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {totlinha, 6, 10, 8}-{linha, 6, 24, 5}-{estrelas, 6, 35, 8}-{tot, 6, 49, 3}-{espacos, 6, 58, 7};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
