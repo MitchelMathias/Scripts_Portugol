@@ -1,7 +1,5 @@
-programa
-{
-	funcao inicio()
-	{
+programa {
+	funcao inicio(){
 		cadeia nome // Declarando variável
 		
 		escreva("Olá, qual é o seu nome? ") // Mensagem para o usuário
