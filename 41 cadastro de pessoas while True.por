@@ -21,6 +21,7 @@ programa
 
 			escreva("Idade: ") // mensagem pra identificar pro usuário que nesse momento ele digitara a idade
 			leia(idade) // ler a idade
+			
 
 			se (t.caixa_alta(nome) != "ACABOU"){ // Caso o nome seja diferente da interrupção 
 				 pessoas++ // pessoas recebe ela mesmo mais 1
@@ -56,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 997; 
+ * @POSICAO-CURSOR = 1001; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {idade, 6, 10, 5}-{pessoas, 6, 21, 7}-{velho, 6, 34, 5}-{novo, 6, 45, 4}-{nome, 7, 9, 4}-{nomenovo, 7, 21, 8}-{nomevelho, 7, 37, 9}-{media, 8, 7, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

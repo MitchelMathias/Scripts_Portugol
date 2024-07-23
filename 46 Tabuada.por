@@ -10,12 +10,10 @@ programa
 		
 		leia(perguntado)
 
-		
-
 		para(cont = 1; cont<=10; cont++){ // começa em 1 e para quando for 10 e a cada um acresenta 1 na variável contador 
 			escreva("\n") // Pula linha
 			u.aguarde(300) // Espera 300 milesegundos
-			escreva("\t\t", perguntado, " x ", cont, " = ", (perguntado * cont)) // escreva o numero que usuário digitou, + um "x" mais a operação de vezes do perguntado e o contador
+			escreva("\t", perguntado, " x ", cont, " = ", (perguntado * cont)) // escreva o numero que usuário digitou, + um "x" mais a operação de vezes do perguntado e o contador
 		}
 		escreva("\n\n==========================================\n\n") // Msg pro usuário
 	}
@@ -25,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 662; 
+ * @POSICAO-CURSOR = 552; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

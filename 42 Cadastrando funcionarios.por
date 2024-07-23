@@ -27,7 +27,7 @@ programa
 			se (sexoo == 'M' ou sexoo == 'm'){ // se sexo for masculino
 				homens++ //variável homens recebe mais 1 
 				media_homens = (media_homens + salario) / homens // calculando a média salarial dos homens 
-				se (pessoas == 1) { // se for o primeiro homem digitado
+				se (homens == 1) { // se for o primeiro homem digitado
 					maior_sal_homem = salario // recebe o maior salário
 				}
 				senao se (salario > maior_sal_homem) { // se não for o primeiro homem, verifica se o salário digitado é maior que a variável maior_sal_homem 
@@ -36,8 +36,9 @@ programa
 			}
 			se (sexoo == 'F' ou sexoo == 'f'){ // se sexo for feminino 
 				mulheres++ // mulheres recebe mais 1
-				se (salario > 1000) // se o salário da mulher for a cima de R$ 1000
-				tot_mulher_mais++ // total de mulher que recebe mais de R$ 1000, recebe mais 1
+				se (salario > 1000){ // se o salário da mulher for a cima de R$ 1000
+					tot_mulher_mais++ // total de mulher que recebe mais de R$ 1000, recebe mais 1
+				}
 			}
 			se (continuar == 'N' ou continuar == 'n' ) // se a resposta for não pra pergunta do quer continuar, encerra o programa
 				pare	
@@ -56,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2957; 
+ * @POSICAO-CURSOR = 2166; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {pessoas, 7, 10, 7}-{homens, 7, 24, 6}-{mulheres, 7, 36, 8}-{tot_mulher_mais, 7, 50, 15}-{nome, 8, 9, 4}-{sexoo, 9, 11, 5}-{continuar, 9, 24, 9}-{media_homens, 10, 7, 12}-{maior_sal_homem, 10, 28, 15}-{salario, 10, 52, 7};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
