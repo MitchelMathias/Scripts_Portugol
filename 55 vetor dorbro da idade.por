@@ -12,7 +12,7 @@ programa
 
 		escreva("O resultado é ") // Mensagem pro usuário
 		
-		para(pos;pos<u.numero_elementos(idade);pos++){ // enquanto posição for menor que o número de elementos faça
+		para(pos = 1;pos<u.numero_elementos(idade);pos++){ // enquanto posição for menor que o número de elementos faça
 			idade[pos] = idade[pos - 1] * 2 // variavel na posição recebe o valor da posição anterior multiplicado por 2
 			escreva(idade[pos], " -> ") // Escreve a idade salva na posição e escreve um traço pra próxima posição
 		}
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 785; 
+ * @POSICAO-CURSOR = 418; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

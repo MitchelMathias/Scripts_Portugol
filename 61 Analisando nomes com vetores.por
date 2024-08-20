@@ -38,7 +38,7 @@ programa
 		para(pos = 0; pos < u.numero_elementos(vetor); pos++){ // Inicia um loop para verificar a presença da letra 'S'
 			temp = t.caixa_alta(vetor[pos]) // Converte o nome para caixa alta
 			poss = t.posicao_texto("S", temp, 0) // Obtém a posição da letra 'S' no nome
-			se(poss > 0){ // Se a letra 'S' estiver presente no nome
+			se(poss != -1){ // Se a letra 'S' estiver presente no nome
 				escreva(pos +1, "° = ", vetor[pos], "   ") // Exibe a posição e o nome que atende ao critério
 			}
 		}
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3072; 
+ * @POSICAO-CURSOR = 2818; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

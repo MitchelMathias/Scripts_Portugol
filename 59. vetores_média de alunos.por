@@ -13,7 +13,7 @@ programa {
         }
         media = soma / u.numero_elementos(vetor) // Calcula a média das notas
         escreva("----------------------------------\n") // Exibe uma linha de separação
-        escreva("A média da turma foi de: ", media, "\n1") // Exibe a média calculada
+        escreva("A média da turma foi de: ", media, "\n") // Exibe a média calculada
         escreva("----------------------------------\n") // Exibe outra linha de separação
         
         para(pos = 0; pos < u.numero_elementos(vetor); pos++) { // Inicia um loop para verificar quais alunos ficaram acima da média
@@ -29,7 +29,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1530; 
+ * @POSICAO-CURSOR = 1008; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

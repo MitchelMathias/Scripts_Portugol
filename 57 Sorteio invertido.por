@@ -14,7 +14,7 @@ programa
 			u.aguarde(250) // Aguarde 250 milisegundos
 		}
 		escreva("Fim") // Mensagem pro usuário
-		escreva("\nSorteando os números inversamente...\n") // Mensagem pro usuário
+		escreva("\nEscrevendo os números inversamente...\n") // Mensagem pro usuário
 		para(pos = u.numero_elementos(vetor)-1;pos >=0; pos--){ // Enquanto posição for maior que numero de elementos
 			escreva(pos,":{", vetor[pos], "} - ") // Escreve o numero de ordem e o valor formatado
 			u.aguarde(250) // Aguarde 250 milisegundos 
@@ -23,3 +23,14 @@ programa
 		escreva("Fim\n\n") // Mensagem pro usuário
 	}
 }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 731; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

@@ -20,6 +20,7 @@ programa
 			se(vetor[pos] % 2 == 0){ // Se o valor na posição 'pos' for par
 				escreva(pos, "..") // Exibe a posição do valor par
 				soma_par += vetor[pos] // Adiciona o valor par à soma dos pares
+				u.aguarde(300)
 			}
 		}
 		escreva("\n   --> soma Par: ", soma_par) // Exibe a soma dos valores pares
@@ -28,6 +29,7 @@ programa
 			se(vetor[pos] % 2 != 0){ // Se o valor na posição 'pos' for ímpar
 				escreva(pos, "..") // Exibe a posição do valor ímpar
 				quant_impar++ // Incrementa a quantidade de ímpares
+				u.aguarde(300)
 			}
 		}
 		escreva("\n   --> Quantidade de impares: ", quant_impar) // Exibe a quantidade total de valores ímpares
@@ -46,6 +48,7 @@ programa
 			se(vetor[pos] == maior){ // Se o valor na posição 'pos' for igual ao maior valor
 				escreva(pos, "..") // Exibe a posição do maior valor
 				tot_oc++ // Incrementa o total de ocorrências do maior valor
+				u.aguarde(300)
 			}
 		}
 		escreva("\n   --> Total de ocorrências: ", tot_oc) // Exibe o total de ocorrências do maior valor
@@ -58,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3274; 
+ * @POSICAO-CURSOR = 3331; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
