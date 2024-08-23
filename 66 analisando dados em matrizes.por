@@ -14,6 +14,7 @@ programa
             }
         }
         escreva("\n")  // Imprime uma linha em branco
+        escreva("Analisando.\n")  // Imprime o texto 'Analisando.'
         para(l = 0; l < u.numero_linhas(matriz); l++){  // Loop para iterar sobre as linhas da matriz
             para(c = 0; c < u.numero_colunas(matriz);c++){  // Loop para iterar sobre as colunas da matriz
                 escreva(matriz[l][c], " --> ")  // Imprime o valor da posição [l][c] da matriz seguido de ' --> '
@@ -21,9 +22,9 @@ programa
                 se(matriz[l][c] > maior){  // Verifica se o valor na posição [l][c] é maior que o valor atual de 'maior'
                     maior = matriz[l][c]  // Atualiza o valor de 'maior' com o valor da posição [l][c]
                 }
-            }   
+            }
+            escreva("\n")   
         }
-        escreva("Analisando.\n")  // Imprime o texto 'Analisando.'
         escreva("--------------------------\n")  // Imprime uma linha de separação
         escreva("Maior número da matriz: ", maior)  // Imprime o maior número encontrado na matriz
         escreva("\n--------------------------\n")  // Imprime uma linha de separação
@@ -35,6 +36,7 @@ programa
                     escreva("[", l, "]", "[", c, "]", "--> ")  // Imprime a posição [l][c] onde o valor 'maior' foi encontrado
                 }
             }
+            escreva("\n")
         }
         escreva("Fim!!\n\n")  // Imprime 'Fim!!' seguido de duas linhas em branco
     }
@@ -45,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2599; 
+ * @POSICAO-CURSOR = 2550; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 6, 16, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

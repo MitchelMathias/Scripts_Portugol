@@ -8,7 +8,6 @@ programa
 		logico venceu = verdadeiro
 
 		escreva("\t ### Campo Minando ###\n")
-		
 		para(l = 0; l < u.numero_linhas(matriz);l++){
 			para(c = 0; c < u.numero_colunas(matriz); c++){
 				matriz[l][c] = 'o'
@@ -80,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 358; 
+ * @POSICAO-CURSOR = 224; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 6, 11, 6}-{l, 7, 10, 1}-{c, 7, 17, 1}-{cont, 7, 24, 4}-{linha, 7, 34, 5}-{coluna, 7, 46, 6}-{pontos, 7, 59, 6}-{venceu, 8, 9, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

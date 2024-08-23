@@ -17,6 +17,7 @@ programa
 			escreva("Idade de ", nome[pos], ": ") // Solicita a idade da pessoa
 			leia(idade[pos]) // Lê a idade digitada e armazena no vetor 'idade' na posição 'pos'
 			id += idade[pos] // Adiciona a idade ao total 'id'
+			escreva("-------------------------------------------\n")
 		}
 		limpa() // Limpa a tela para exibir os resultados da análise
 		media = id / t.inteiro_para_real(pos) // Calcula a média das idades
@@ -49,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2688; 
+ * @POSICAO-CURSOR = 1280; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {nome, 8, 9, 4}-{idade, 9, 10, 5}-{pos, 9, 20, 3}-{id, 9, 29, 2}-{mv, 9, 37, 2}-{media, 10, 7, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

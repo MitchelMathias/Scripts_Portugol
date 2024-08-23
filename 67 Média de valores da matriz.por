@@ -14,17 +14,23 @@ programa
                 matriz[l][c] = sorteia(1,10)  // Atribui um valor sorteado entre 1 e 10 para a posição [l][c] da matriz
                 soma += matriz[l][c]  // Acumula a soma dos valores da matriz
                 escreva(matriz[l][c], "\t")  // Imprime o valor da posição [l][c] da matriz com uma tabulação
+                u.aguarde(150)
             }
             escreva("\n")  // Imprime uma nova linha após completar uma linha da matriz
         }
         media = t.inteiro_para_real(soma) / (u.numero_linhas(matriz) * u.numero_colunas(matriz))  // Calcula a média dos valores da matriz
         escreva("--------------------------------------------\n")  // Imprime uma linha de separação
+        u.aguarde(200)
         escreva("Média dos Valores: ", media)  // Imprime a média dos valores da matriz
+        u.aguarde(200)
         escreva("\n--------------------------------------------\n")  // Imprime uma linha de separação
+        u.aguarde(200)
         escreva("Na 2° linha os valores acima da média: \n")  // Imprime a mensagem indicando que os valores da 2ª linha acima da média serão mostrados
+        u.aguarde(200)
         para(c = 0 ; c < u.numero_colunas(matriz);c++){  // Loop para iterar sobre as colunas da 2ª linha da matriz
             se (matriz[1][c] > media){  // Verifica se o valor na posição [1][c] é maior que a média
                 escreva(c + 1, "° valor = ", matriz[1][c], "\n")  // Imprime o valor da posição [1][c] que é maior que a média, com o número da coluna
+                u.aguarde(200)
                 oc++  // Incrementa o contador de ocorrências
             }
         }
@@ -48,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3362; 
+ * @POSICAO-CURSOR = 2409; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 7, 16, 6}-{media, 8, 13, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
