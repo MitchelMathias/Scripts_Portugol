@@ -4,13 +4,11 @@ programa
 		real nov
 		se (ad == 'A'){
 			nov = (valor * porc / 100) + valor
-			retorne nov
 		}
 		senao{
 			nov = valor - (valor * porc / 100) 
-			retorne nov
 		}
-		
+		retorne nov
 	}
 	
 	funcao inicio()
@@ -35,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 716; 
+ * @POSICAO-CURSOR = 144; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

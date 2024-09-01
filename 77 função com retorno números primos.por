@@ -2,8 +2,8 @@ programa
 {
 	funcao cadeia primo(inteiro n1){
 		cadeia ret = ""
-		inteiro cont = 1, divi = 0
-		para (cont = 1; cont <= n1; cont++){
+		inteiro cont = 1, divi = 2
+		para (cont = 2; cont < n1; cont++){
 			se (n1 % cont == 0 ){
 				divi++
 				se (divi > 2 ){
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 155; 
+ * @POSICAO-CURSOR = 165; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
